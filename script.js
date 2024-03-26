@@ -84,16 +84,19 @@ document.addEventListener('DOMContentLoaded', function () {
     const hamburgerMenu = document.querySelector('.hamburger-menu');
     const closeIcon = document.querySelector('.close-icon');
     const mobileMenu = document.querySelector('.mobile-menu');
+    const overlay = document.querySelector('.overlay');
 
     hamburgerMenu.addEventListener('click', function () {
         mobileMenu.classList.toggle('show-menu');
         hamburgerMenu.classList.toggle('hidden');
+        overlay.classList.toggle('overlay-show');
         closeIcon.classList.remove('hidden');
     });
 
     closeIcon.addEventListener('click', function () {
         mobileMenu.classList.remove('show-menu'); 
         hamburgerMenu.classList.remove('hidden');
+        overlay.classList.remove('overlay-show');
         closeIcon.classList.toggle('hidden');
         
     });
@@ -103,6 +106,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (!hamburgerMenu.contains(event.target) && !mobileMenu.contains(event.target)) {
             mobileMenu.classList.remove('show-menu');
             hamburgerMenu.classList.remove('hidden');
+            overlay.classList.remove('overlay-show');
             closeIcon.classList.add('hidden');
         }
     });
