@@ -183,7 +183,7 @@ nav a:active {
 	position: relative;
 	display: inline-block;
 	margin-bottom: 35px;
-	margin-left: 20px;
+	margin-left: 12px;
 }
 .language-dropdown:hover {
 	cursor: pointer;
@@ -203,7 +203,7 @@ nav a:active {
 	display: none;
 	left: 0;
 	margin-top: 0px;
-	margin-left: -110px;
+	margin-left: -130px;
 	padding: 15px 0 0 0;
 	position: absolute;
 	top: 100%;
@@ -271,15 +271,21 @@ nav a:active {
 	width: 100%;
 }
 .slide {
-	align-items: center;
-	display: flex;
-	height: 813px;
-	justify-content: center;
-	position: absolute;
-	transition: transform 0.5s ease;
-	width: 100%;
-	z-index: 1;
+    align-items: center;
+    display: flex;
+    height: 813px;
+    justify-content: center;
+    position: absolute;
+    opacity: 0; /* Start with opacity 0 */
+    transition: opacity 0.7s ease; /* Add transition for opacity */
+    width: 100%;
+    z-index: 1;
 }
+
+.slide.active {
+    opacity: 1; /* Set opacity to 1 for active slide */
+}
+
 .slide-num1 {
 	background-image: url(images/main-background.png);
 	background-size: cover;
@@ -367,6 +373,10 @@ nav a:active {
 	right: 10%;
 	text-align:left;
 	text-decoration: none;
+}
+
+.find-tours {
+	font-weight: 500 !important;
 }
 
 .most-popular-tour {
@@ -469,6 +479,7 @@ nav a:active {
 .small-lightblue-subtitle {
 	color: #83acc1;
 	font-weight: 400;
+	margin: 15px 0;
 }
 
 /*-----------------------------*/
@@ -525,6 +536,7 @@ nav a:active {
 	text-align:left;
 }
 .third-section {
+	font-family: Playfair Display !important;
 	align-items: center;
 	background: #4b82ac;
 	display: flex;
@@ -549,6 +561,7 @@ nav a:active {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .montenegro-tours-sections {
 	background-color: #f5fcff;
 	box-sizing: border-box;
@@ -610,6 +623,10 @@ footer {
 	height: 97px;
 	margin-top: 25px;
 }
+
+.footer-logo-container {
+	padding-bottom: 20px;
+}
 .footer-logo-container h3 {
 	color: #fff;
 	font-size: 25px;
@@ -627,6 +644,14 @@ footer {
 }
 .footer-working-hours h4 {
 	margin-top: -15px;
+}
+
+.footer-info-container {
+	padding-top: 10px;
+	padding-bottom: 25px;
+	margin: 10px 0;
+	border-top: 1px solid #ffffff2f;
+	border-bottom: 1px solid #ffffff2f;
 }
 .footer-info-container p {
 	opacity: 0.8;
@@ -674,6 +699,7 @@ footer {
 	font-style: normal;
 	text-align:left;
 	color: #ffffff;
+	opacity: 0.8;
 }
 .footer-contact {
 	margin: 0 200px;
@@ -696,6 +722,7 @@ footer {
 	font-style: normal;
 	text-align:left;
 	color: #ffffff;
+	opacity: 0.8;
 }
 .footer-quicklinks a {
 	display: flex;
@@ -707,6 +734,7 @@ footer {
 	font-style: normal;
 	text-align:right;
 	color: #ffffff;
+	opacity: 0.8;
 }
 .footer-quicklinks h3 {
 	margin-bottom: 5px;
@@ -725,7 +753,7 @@ footer {
 }
 .footer-copyright-container__privacy a {
 	margin-left: 15px;
-	font-family: "Rubik";
+	font-family: "Rubik" !important;
 	text-decoration: none;
 	font-size: 15px;
 	font-weight: 300;
@@ -854,7 +882,7 @@ footer {
 	.language-menu {
 		display: flex;
 		margin-top: -40px;
-		margin-left: -130px;
+		margin-left: -170px;
 		margin-bottom: -50px;
 		scale: 0.3;
 		flex-direction: row !important;
@@ -906,6 +934,11 @@ footer {
 	/* Rotate the arrow for opened submenus */
 	.mobile-menu ul li.dropdown.open > a::after {
 		transform: rotate(90deg);
+	}
+
+	.mobile-menu ul li {
+		margin:5px 0 !important;
+		padding: 0 !important;
 	}
 	/*Social icons for mobile styles*/
 	.social-icons__mobile-menu {
@@ -1180,6 +1213,7 @@ footer {
 	.footer-working-hours {
 		position: static;
     margin-left: -10%;
+	margin-bottom: -15px;
     width: 80vw;
 	}
 	.footer-social {
@@ -1208,6 +1242,12 @@ footer {
 		font-size: 18px;
 		margin-bottom: 5px;
 		text-align:left;
+	}
+	.footer-info-container {
+		padding-bottom: 0;
+		margin:0;
+		border-top: none;
+		border-bottom: 1px solid #ffffff2f;
 	}
 	.footer-info-container span {
 		font-size: 14px;

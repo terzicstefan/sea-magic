@@ -33,9 +33,9 @@ function updateDots() {
 function goToSlide(index) {
   slides.forEach((slide, i) => {
       if (i === index) {
-          slide.style.transform = "translateX(0)";
+          slide.classList.add('active'); // Add active class to target slide
       } else {
-          slide.style.transform = "translateX(-100%)";
+          slide.classList.remove('active'); // Remove active class from other slides
       }
   });
   currentSlide = index;
@@ -43,20 +43,22 @@ function goToSlide(index) {
 }
 
 
+
+
+
 function nextSlide() {
-    slides.forEach((slide, i) => {
-        if (i === currentSlide) {
-            slide.style.transform = "translateX(-100%)";
-        }
-    });
-    currentSlide = (currentSlide + 1) % slides.length;
-    slides.forEach((slide, i) => {
-        if (i === currentSlide) {
-            slide.style.transform = "translateX(0)";
-        }
-    });
-    updateDots();
+  const nextIndex = (currentSlide + 1) % slides.length;
+
+  // Fade out current slide
+  slides[currentSlide].classList.remove('active');
+  // Fade in next slide
+  slides[nextIndex].classList.add('active');
+
+  currentSlide = nextIndex;
+
+  updateDots();
 }
+
 
 
 
