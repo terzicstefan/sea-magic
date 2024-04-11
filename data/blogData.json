@@ -1,0 +1,100 @@
+[
+    {
+      "id": 1,
+      "name": "Example Post",
+      "date": "April 1, 2024",
+      "photo": "/images/luka.png",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+      "content": "Full content of the blog post goes here...",
+      "slug": "example-post",
+      "tags": ["boka", "plaza", "more"]
+    },
+    {
+      "name": "Post 2",
+      "date": "22.08.2024",
+      "excerpt": "This is the excerpt for post 2.",
+      "photo": "/images/luka.png"
+    },
+    {
+      "name": "Post 3",
+      "date": "22.08.2024",
+      "excerpt": "This is the excerpt for post 3.",
+      "photo": "/images/luka.png"
+    },
+    {
+      "name": "Post 1sub",
+      "date": "22.08.2024",
+      "excerpt": "This is the excerpt for post 1.",
+      "photo": "/images/luka.png",
+      "tags": ["boka", "plaza", "more"]
+    },
+    {
+      "name": "Post 2bus",
+      "date": "22.08.2024",
+      "excerpt": "This is the excerpt for post 2.",
+      "photo": "/images/luka.png",
+      "tags": ["boka", "plaza", "more"]
+    },
+    {
+      "name": "Post 3",
+      "date": "22.08.2024",
+      "excerpt": "This is the excerpt for post 3.",
+      "photo": "/images/luka.png",
+      "tags": ["boka", "plaza", "more"]
+    },
+    {
+      "name": "Post 1",
+      "date": "22.08.2024",
+      "excerpt": "This is the excerpt for post 1.",
+      "photo": "/images/luka.png"
+    },
+    {
+      "name": "Post 2",
+      "date": "22.08.2024",
+      "excerpt": "This is the excerpt for post 2.",
+      "photo": "/images/luka.png"
+    },
+    {
+      "name": "Post 3",
+      "date": "22.08.2024",
+      "excerpt": "This is the excerpt for post 3.",
+      "photo": "/images/luka.png"
+    },
+    {
+      "name": "Post 1",
+      "date": "22.08.2024",
+      "excerpt": "This is the excerpt for post 1.",
+      "photo": "/images/luka.png"
+    },
+    {
+      "name": "Post 2",
+      "date": "22.08.2024",
+      "excerpt": "This is the excerpt for post 2.",
+      "photo": "/images/luka.png"
+    },
+    {
+      "name": "Post 3",
+      "date": "22.08.2024",
+      "excerpt": "This is the excerpt for post 3.",
+      "photo": "/images/luka.png"
+    },
+    {
+      "name": "Post 1",
+      "date": "22.08.2024",
+      "excerpt": "This is the excerpt for post 1.",
+      "photo": "/images/luka.png"
+    },
+    {
+      "name": "Post 2",
+      "date": "22.08.2024",
+      "excerpt": "This is the excerpt for post 2.",
+      "photo": "/images/luka.png"
+    },
+    {
+      "name": "Post 3",
+      "date": "22.08.2024",
+      "excerpt": "This is the excerpt for post 3.",
+      "photo": "/images/luka.png"
+    }
+  ]
+  

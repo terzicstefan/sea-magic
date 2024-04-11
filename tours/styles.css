@@ -1,0 +1,257 @@
+.hero-section {
+    background-image: url(/images/hero-bg.png);
+    background-size: cover;
+    height: 317px;
+    margin-top: -120px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.tours-content {
+    padding: 2.5% 10%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 25px auto;
+    padding: 0 20px;
+  }
+  .tour {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    float: left;
+  }
+  .tour img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  .filters {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .filters button{
+    background-color: #EBF6FF;
+    color: #4B82AC;
+    border: none;
+    cursor: pointer;
+    width: 165px;
+    height:48px;
+    font-size: 18px;
+  }
+
+  .filters button:hover {
+    background-color: #4B82AC;
+    color:#fff;
+  }
+
+  .active  {
+    background-color: #4B82AC !important;
+    color:#fff !important;
+  }
+
+
+  .pagination {
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .pagination button {
+    margin: 30px 3px 3px 0;
+    width: 32px;
+    height:32px;
+    border-radius: 0;
+    background-color: #007bff00;
+    color: #808080;
+    border: none;
+    cursor: pointer;
+  }
+  .pagination button:hover {
+    background-color: #4B82AC;
+    color:#fff;
+    border-radius: 0 !important;
+  
+  }
+  .container {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 0;
+  }
+
+  .tour-bg {
+    border-radius: 25px;
+    min-height: 500px;
+    background-color: #fff;
+    padding-bottom: 0;
+
+  }
+
+ 
+
+  .tour {
+    width: calc(50% - 30px);
+    margin: 15px;
+    padding: 0;
+    box-sizing: border-box;
+    float: left;
+    filter: drop-shadow(4px 14px 14px rgba(185,185,185,0.16 ));
+  }
+
+  .tour-duration {
+    display:flex;
+  }
+
+  .tour-duration h5 {
+    margin-right: -30px;
+  }
+
+  .tour-duration span {
+    color:#4B82AC;
+  }
+  .tour a {
+    text-decoration: none;
+  }
+  .tour img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius:8px;
+  }
+  
+  .tour h5,
+  .tour h2,
+  .tour p, .tour h4, .tour h3 {
+    padding: 0 5%;
+  }
+
+  .tour h2:hover {
+    text-decoration: underline;
+    text-decoration-color: #0d2d3d;
+  }
+
+  /*Price*/
+.price {
+  background-color:#4B82AC ;
+  color:#fff;
+  font-size: 23px;
+  width:170px;
+  height:50px;
+  text-align: left;
+  padding: 0 0 0 25px;
+  position: relative;
+  margin: 0;
+  margin-bottom: -50px;
+  z-index: 5;
+  border-top-left-radius: 8px;
+}
+
+.price span {
+  font-size: 16px;
+}
+
+.price h3 {
+  font-weight: 400;
+  padding-top: 5px;
+}
+
+/*Category*/
+  .tour h4 {
+    color:#4B82AC;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  /*Duration, people*/
+  .tour h5 {
+    font-size: 18px;
+    color: #808080;
+    font-weight: 400;
+  }
+  
+  /*Excerpt*/
+  .tour p {
+    padding-bottom: 30px;
+    margin-top: -15px;
+    color: #bcbcbc;
+    font-size: 18px;
+    margin-bottom: -25px;
+  }
+    /*Title*/
+
+  .tour h2 {
+    font-size: 32px;
+    color: #0d2d3d;
+    font-weight: 500;
+    margin-top: -15px;
+  }
+  .pagination {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .pagination button {
+    height: 32px;
+    padding: 0;
+    border-radius: 0;
+    width: 32px;
+    border: none;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .tours-content {
+      padding: 2.5% 5%;
+    }
+  
+    .hero-section {
+      height: 217px;
+      margin-top: 0px;
+      padding-left: 5%;
+      background-position: center;
+    }
+  
+    .tour {
+      width: 100%;
+      margin: 0 0 20px;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f9f9f9;
+      float: left;
+    }
+
+    .filters {
+      text-align: center;
+      margin-bottom: -20px;
+    }
+    .filters button {
+      width: 100%;
+    }
+
+    .tour-duration h5 {
+      margin-right: -10px;
+    }
+
+    .tour h4 {
+      font-size: 12px;
+    }
+    .tour h5 {
+      font-size: 14px;
+
+    }
+
+
+    
+    /*Excerpt*/
+    .tour p {
+
+      font-size: 14px;
+    }
+      /*Title*/
+  
+    .tour h2 {
+      font-size: 24px;
+    }
+  
+  }

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sea Magic</title>
+    <link rel="icon" href="/images/sea-magic-logo.png" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!--Meta data-->
+    <meta name="description" content="Sea Magic - Description" />
+    <meta property="og:title" content="Sea Magic" />
+    <meta
+      property="og:description"
+      content="Web Center - Sail the sea and find yourself in the blue of the Adriatic!"
+    />
+    <meta property="og:image" content="/images/sea-magic-logo.png" />
+  </head>
+  <body>
+    <!--Header section-->
+    <header class="header slide-in-blurred-top">
+      <div class="header-container ">
+        <div class="logo-container slide-in-blurred-top">
+          <img src="/images/sea-magic-logo.png" alt="sea-magic-logo" />
+        </div>
+        <!--Desktop menu-->
+        <nav class="desktop-menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+<li><a href="/tours/">Tours</a></li>            <li class="dropdown">
+              <a href="#">Attractions</a>
+              <ul class="sub-menu">
+                <li><a href="#">Gospa od Škrpjela</a></li>
+                <li><a href="/attraction/perast/">Perast</a></li>
+                <li><a href="">Panorama Kotora</a></li>
+                <li><a href="#">Mamula</a></li>
+                <li><a href="#">Plava špilja</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#">Reviews</a>
+            <ul class="sub-menu">
+                <li><a href="#">Gospa od Škrpjela</a></li>
+                <li><a href="/attraction/perast/">Perast</a></li>
+                <li><a href="#">Panorama Kotora</a></li>
+                <li><a href="#">Mamula</a></li>
+                <li><a href="#">Plava špilja</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          
+        </nav>
+        <!--Mobile menu toggle-->
+        <div class="close-icon__z-show">
+          <div class="hamburger-menu" onclick="toggleMobileMenu()">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+          <div class="close-icon hidden">X</div>
+      </div>
+      
+      
+      <!--Mobile menu-->
+      <nav class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-logo">
+        <img src="/images/sea-magic-logo.png" alt="sea-magic-logo" />
+      </div>
+      <ul class="language-menu">
+        
+<a href="#" onclick="switchLanguage('en')"><li data-lang="en"><img src="/images/eng-icon.png" alt="eng-icon" /></li></a>
+        <a href="#"onclick="switchLanguage('it')"><li data-lang="it"><img src="/images/ita-icon.png" alt="ita-icon" /></li></a>
+        <a href="#" onclick="switchLanguage('ru')"><li data-lang="ru"><img src="/images/rus-icon.png" alt="rus-icon" /></li></a>
+      </ul>
+          <ul>
+              <li><a href="#">Home</a></li>
+  <li><a href="/tours/">Tours</a></li>              <li class="dropdown">
+                  <a href="#">Attractions</a>
+                  <ul class="sub-menu">
+                      <li><a href="#">Gospa od Škrpjela</a></li>
+                      <li><a href="/attraction/perast/">Perast</a></li>
+                      <li><a href="#">Panorama Kotora</a></li>
+                      <li><a href="#">Mamula</a></li>
+                      <li><a href="#">Plava špilja</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                  <a href="#">Reviews</a>
+                  <ul class="sub-menu">
+                      <li><a href="#">Gospa od Škrpjela</a></li>
+                      <li><a href="/attraction/perast/">Perast</a></li>
+                      <li><a href="#">Panorama Kotora</a></li>
+                      <li><a href="#">Mamula</a></li>
+                      <li><a href="#">Plava špilja</a></li>
+                  </ul>
+              </li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="social-icons__mobile-menu">
+            <a href="facebook.com"><img id="facebook-mobile" src="/images/facebook-icon.png" alt="facebook-icon" width="14" height="26"></a>
+            <a href="instagram.com"> <img id="instagram-mobile" src="/images/instagram-icon.png" alt="instagram-icon" width="26" height="26"></a>
+            <a href="tripadvisor.com"><img id="tripadvisor-mobile" src="/images/tripadvisor-icon.png" alt="trip-advisor-icon" width="31" height="20"></a>
+          </div>
+          
+        </nav>
+
+        <div class="overlay"></div>
+
+        <!--Contact info-->
+        <div class="contact-info">
+          <a href="mailto:seamagickotor@gmail.com">seamagickotor@gmail.com</a>
+          <a href="tel:+38268557150">+382 68 557 150</a>
+        </div>
+        <!--Language dropdown-->
+        <div class="language-dropdown">
+          <img  id="language-icon" src="/images/eng-icon.png" alt="Language Icon" />
+          <ul class="language-menu">
+              <li class="en-li" data-lang="en">
+                  <a class=" en-a" href="#" onclick="switchLanguage('en')">
+                      <img src="/images/eng-icon.png" alt="eng-icon" /><span>English</span>
+                      <span class="check-mark"></span>
+                  </a>
+              </li>
+              <li class="it-li" data-lang="ita">
+                  <a class="it-a" href="#" onclick="switchLanguage('it')">
+                      <img src="/images/ita-icon.png" alt="ita-icon" /><span>Italian</span>
+                      <span class="check-mark"></span>
+                  </a>
+              </li>
+              <li class="ru-li" data-lang="ru">
+                  <a class="ru-a" href="#" onclick="switchLanguage('ru')">
+                      <img src="/images/rus-icon.png" alt="rus-icon" /><span>Russian</span>
+                      <span class="check-mark"></span>
+                  </a>
+              </li>
+          </ul>
+      </div>
+        
+      </div>
+    </header>
+    <!--Slider section-->
+    <div class="slider">
+      <div class="slide slide-num1">
+        <div class="slide-content">
+          <h5 class="slide-in-left">SEA MAGIC</h5>
+          <h1 class="slide-in-left">
+            <strong>Sail the sea and find yourself </strong>
+          </h1>
+          <h1 class="small-lightblue-subtitle slide-in-left">
+            in the blue of the Adriatic!
+          </h1>
+        </div>
+      </div>
+      <div class="slide slide-num2">
+        <div class="slide-content">
+          <h1>Slide 2 Title</h1>
+        </div>
+      </div>
+      <div class="slide slide-num3">
+        <div class="slide-content">
+          <h1>Slide 3 Title</h1>
+        </div>
+      </div>
+    </div>
+    <div class="slider-dots"></div>
+
+    <!--Most popular tour section-->
+    <div class="second-section">
+      <h5 class="small-lightblue-subtitle">TOP PICKS</h5>
+      <h2 class="large-title-heading">Our most popular tour</h2>
+      <div class="flex-align flex-align__alt">
+        <p class="light-paragraph" style="max-width: 50%">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words.
+        </p>
+        <a href="/tours/">CHECK ALL TOURS</a>
+      </div>
+      <div class="flex-align most-popular-tour-section">
+        <div>
+          <img
+            src="/images/most-popular-tour.png"
+            alt="most-popular-tour"
+            width="600"
+            height="433"
+          />
+        </div>
+        <div class="most-popular-tour">
+          <h5 class="small-darkblue-subtitle">GROUP TOUR</h5>
+          <h2 class="medium-title-heading">Blue Cave</h2>
+          <p class="dark-paragraph">
+            Blue Cave Adventure is one of our favorite Kotor boat tours. That’s
+            because it showcases the best of what the Bay of Kotor has to offer.
+          </p>
+          <div class="flex-align duration-people">
+            <p class="dark-paragraph">
+              Duration:<span style="color: #4b82ac"> 3h </span>
+            </p>
+            <p class="dark-paragraph">
+              People:<span style="color: #4b82ac"> 10 </span>
+            </p>
+          </div>
+          <div class="flex-align">
+            <h2 class="small-title-heading">20.00 €</h2>
+            <button>Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--About us section-->
+    <div class="about-us-section flex-align">
+      <div class="about-us-sub-section1">
+        <h5 class="small-mediumblue-subtitle">ABOUT US</h5>
+        <h5 class="wlarge-title-heading">Agency background</h5>
+        <div class="flex-align our-story-our-mission__button">
+          <a href="/about-us/"><button class="our-story-button">Our story</button></a>
+          <a href="/about-us/#our-mission"><button class="our-mission-button">Our mission</button></a>
+        </div>
+        <p>
+          "Sea Magic" is a company for transporting passengers at sea, founded
+          in 2023. Our skipper brings absolute safety to your sea adventure with
+          his knowledge and experience. He obtained his license while attending
+          the maritime school in Kotor and graduating from the Faculty of
+          Nautical Tourism. With years of experience working for other
+          companies, we bring you expertise and professionalism as part of every
+          trip we organize.
+        </p>
+        <button class="details-button">Details</button>
+      </div>
+      <div>
+        <img
+          src="/images/boat-image.png"
+          alt="boat image"
+          width="720"
+          height="594"
+        />
+      </div>
+    </div>
+    <!--Private tours, group tours - section-->
+    <div class="third-section">
+      <h2>
+        “The part of the Adriatic coast belonging to Montenegro <br />
+        is the <strong>purest part of the Mediterranean</strong>.”
+      </h2>
+    </div>
+    <div class="fourth-section"></div>
+    <div class="montenegro-tours-sections">
+      <h5 class="small-lightblue-subtitle">MONTENEGRO TOURS</h5>
+      <h2 class="large-title-heading find-tours">Find tours by category</h2>
+      <p class="light-paragraph">
+        There are many variations of passages of Lorem Ipsum available, but the
+        majority.
+      </p>
+      <div class="flex-align boat-flex">
+        <div class="tours-catergory-container">
+          <img
+            src="/images/people-on-boat.png"
+            alt="People-on-boat"
+            width="540"
+            height="229"
+          />
+          <div class="tours-catergory-content">
+            <h2 class="smallest-title-heading">Private Tours</h2>
+            <p class="light-paragraph">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration words.
+            </p>
+            <a href="/tours/">ALL TOURS</a>
+          </div>
+        </div>
+
+        <div class="tours-catergory-container">
+          <img
+            src="/images/people-on-boat2.png"
+            alt="People-on-boat"
+            width="540"
+            height="229"
+          />
+          <div class="tours-catergory-content">
+            <h2 class="smallest-title-heading">Group Tours</h2>
+            <p class="light-paragraph">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration words.
+            </p>
+            <a href="/tours/">ALL TOURS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Reviews section-->
+    <div class="reviews-section">
+      <h5 class="small-lightblue-subtitle">REVIEWS</h5>
+      <h2 class="large-title-heading">What our clients say?</h2>
+      <img
+        src="/images/reviews.png"
+        alt="reviews"
+        style="width: 100%; height: 100%"
+      />
+    </div>
+    <!--Footer section-->
+    <footer>
+      <div class="footer-logo-container flex-align">
+        <div class="footer-logo">
+          <img src="/images/sea-magic-logo.png" alt="sea-magic-logo" />
+        </div>
+        <div class="footer-working-hours">
+          <h3>Working hours</h3>
+          <h4>Monday - Sunday 06:00 - 24:00h</h4>
+        </div>
+      </div>
+      <div class="footer-info-container flex-align">
+        <div class="footer-info-container__content footer-social">
+          <h3>Find us on social</h3>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form text.
+          </p>
+          <div class="flex-align flex-footer">
+            <div class="social-icons">
+              <img
+                src="images/facebook-icon.png"
+                alt="facebook-icon"
+                width="14"
+                height="26"
+              />
+            </div>
+            <div class="social-icons">
+              <img
+                src="images/instagram-icon.png"
+                alt="instagram-icon"
+                width="26"
+                height="26"
+              />
+            </div>
+            <div class="social-icons">
+              <img
+                src="images/tripadvisor-icon.png"
+                alt="trip-advisor-icon"
+                width="31"
+                height="20"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="footer-info-container__content footer-contact">
+          <h3>Contact</h3>
+          <h5>E-MAIL</h5>
+          <a href="mailto:seamagickotor@gmail.com">seamagickotor@gmail.com</a>
+          <h5>RESERVATIONS AND ORDERS</h5>
+          <span class="footer-content__opacity">+382 68 557 150</span>
+          <span class="footer-content__opacity">+382 69 841 905</span>
+          <span class="footer-content__opacity">+382 67 562 004</span>
+        </div>
+        <div class="footer-info-container__content footer-quicklinks">
+          <h3>Quick Links</h3>
+          <a href="#">Lady of the Rock</a>
+          <a href="/attraction/perast/">Perast</a>
+          <a href="#">Submarine Tunnel</a>
+          <a href="#">Mamula Island</a>
+          <a href="#">Blue Cave</a>
+        </div>
+      </div>
+      <div class="footer-copyright-container">
+        <div>
+          <p>Copyright © 2024 Web Center. All Rights Reserved.</p>
+        </div>
+        <div class="footer-copyright-container__privacy">
+          <a href="#">PRIVACY POLICY</a>
+          <a href="#">COOKIES</a>
+        </div>
+      </div>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>

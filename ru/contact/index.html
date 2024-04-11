@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sea Magic - Contact</title>
+    <link rel="icon" href="/images/sea-magic-logo.png" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/contact/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Meta data-->
+    <meta name="description" content="Sea Magic - Description" />
+    <meta property="og:title" content="Sea Magic - contact" />
+    <meta
+      property="og:description"
+      content="Web Center - Sail the sea and find yourself in the blue of the Adriatic!"
+    />
+    <meta property="og:image" content="/images/sea-magic-logo.png" />
+  </head>
+  <body>
+    <!--Header section-->
+    <header class="header slide-in-blurred-top">
+      <div class="header-container">
+        <div class="logo-container slide-in-blurred-top">
+          <img src="/images/sea-magic-logo.png" alt="sea-magic-logo" />
+        </div>
+        <!--Desktop menu-->
+        <nav class="desktop-menu">
+          <ul>
+            <li><a href="/">Home</a></li>
+<li><a href="/tours/">Tours</a></li>            <li class="dropdown">
+              <a href="#">Attractions</a>
+              <ul class="sub-menu">
+                <li><a href="#">Gospa od Škrpjela</a></li>
+                <li><a href="/attraction/perast/">Perast</a></li>
+                <li><a href="#">Panorama Kotora</a></li>
+                <li><a href="#">Mamula</a></li>
+                <li><a href="#">Plava špilja</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#">Reviews</a>
+              <ul class="sub-menu">
+                <li><a href="#">Gospa od Škrpjela</a></li>
+                <li><a href="/attraction/perast/">Perast</a></li>
+                <li><a href="#">Panorama Kotora</a></li>
+                <li><a href="#">Mamula</a></li>
+                <li><a href="#">Plava špilja</a></li>
+              </ul>
+            </li>
+            <li><a href=".">Contact</a></li>
+          </ul>
+        </nav>
+        <!--Mobile menu toggle-->
+        <div class="close-icon__z-show">
+          <div class="hamburger-menu" onclick="toggleMobileMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div class="close-icon hidden">X</div>
+        </div>
+
+        <!--Mobile menu-->
+        <nav class="mobile-menu" id="mobile-menu">
+          <div class="mobile-menu-logo">
+            <img src="/images/sea-magic-logo.png" alt="sea-magic-logo" />
+          </div>
+          <ul class="language-menu">
+            
+<a href="#" onclick="switchLanguage('en')"><li data-lang="en"><img src="/images/eng-icon.png" alt="eng-icon" /></li></a>
+        <a href="#"onclick="switchLanguage('it')"><li data-lang="it"><img src="/images/ita-icon.png" alt="ita-icon" /></li></a>
+        <a href="#" onclick="switchLanguage('ru')"><li data-lang="ru"><img src="/images/rus-icon.png" alt="rus-icon" /></li></a>
+          </ul>
+          <ul>
+            <li><a href="#">Home</a></li>
+          <li><a href="/tours/">Tours</a></li>            <li class="dropdown">
+              <a href="#">Attractions</a>
+              <ul class="sub-menu">
+                <li><a href="#">Gospa od Škrpjela</a></li>
+                <li><a href="/attraction/perast/">Perast</a></li>
+                <li><a href="#">Panorama Kotora</a></li>
+                <li><a href="#">Mamula</a></li>
+                <li><a href="#">Plava špilja</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#">Reviews</a>
+              <ul class="sub-menu">
+                <li><a href="#">Gospa od Škrpjela</a></li>
+                <li><a href="/attraction/perast/">Perast</a></li>
+                <li><a href="#">Panorama Kotora</a></li>
+                <li><a href="#">Mamula</a></li>
+                <li><a href="#">Plava špilja</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="social-icons__mobile-menu">
+            <a href="facebook.com"
+              ><img
+                id="facebook-mobile"
+                src="/images/facebook-icon.png"
+                alt="facebook-icon"
+                width="14"
+                height="26"
+            /></a>
+            <a href="instagram.com">
+              <img
+                id="instagram-mobile"
+                src="/images/instagram-icon.png"
+                alt="instagram-icon"
+                width="26"
+                height="26"
+            /></a>
+            <a href="tripadvisor.com"
+              ><img
+                id="tripadvisor-mobile"
+                src="/images/tripadvisor-icon.png"
+                alt="trip-advisor-icon"
+                width="31"
+                height="20"
+            /></a>
+          </div>
+        </nav>
+        <div class="overlay"></div>
+        <!--Contact info-->
+        <div class="contact-info">
+          <a href="mailto:seamagickotor@gmail.com">seamagickotor@gmail.com</a>
+          <a href="tel:+38268557150">+382 68 557 150</a>
+        </div>
+        <!--Language dropdown-->
+        <div class="language-dropdown">
+          <img  id="language-icon" src="/images/eng-icon.png" alt="Language Icon" />
+          <ul class="language-menu">
+              <li class="en-li" data-lang="en">
+                  <a class=" en-a" href="#" onclick="switchLanguage('en')">
+                      <img src="/images/eng-icon.png" alt="eng-icon" /><span>English</span>
+                      <span class="check-mark"></span>
+                  </a>
+              </li>
+              <li class="it-li" data-lang="ita">
+                  <a class="it-a" href="#" onclick="switchLanguage('it')">
+                      <img src="/images/ita-icon.png" alt="ita-icon" /><span>Italian</span>
+                      <span class="check-mark"></span>
+                  </a>
+              </li>
+              <li class="ru-li" data-lang="ru">
+                  <a class="ru-a" href="#" onclick="switchLanguage('ru')">
+                      <img src="/images/rus-icon.png" alt="rus-icon" /><span>Russian</span>
+                      <span class="check-mark"></span>
+                  </a>
+              </li>
+          </ul>
+      </div>
+      </div>
+    </header>
+    <div class="hero-section__contact"></div>
+    <div class="contact-content">
+      <h5 class="small-lightblue-subtitle">CONTACT</h5>
+      <h2 class="large-title-heading">Feel free to contact us</h2>
+
+      <p class="light-paragraph">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.
+      </p>
+      <img id="water-icon" src="/images/water-solid.png" alt="water icon" />
+      <div class="flex-align">
+        <div class="contact-icons__content">
+          <h3>Sea Magic Speed Boat Tours Kotor bb, 85330, Crna Gora</h3>
+          <div class="flex-align flex-align__row">
+            <img
+              class="contact-icons__small"
+              src="/images/phone-icon.png"
+              alt="phone icon"
+            />
+            <p>+382 68 557 150 ; +382 69 841 905 ; +382 67 562 004</p>
+          </div>
+          <div class="flex-align flex-align__row">
+            <img
+              class="contact-icons__small"
+              src="/images/sms.png"
+              alt="mail icon"
+            />
+            <p>seamagickotor@gmail.com</p>
+          </div>
+          <div class="flex-align flex-align__row">
+            <img
+              class="contact-icons__small"
+              src="/images/home-icon.png"
+              alt="home-icon"
+            />
+            <p>www.seamagickotor.com</p>
+          </div>
+          <div class="contact-working-hours">
+          <h3 >Working hours</h3>
+          <p>Monday - Sunday 06:00 - 24:00h</p>
+        </div>
+          <div class="flex-align contact-icons__big flex-align__row">
+            <img src="/images/facebook-contact.png" alt="facebook" />
+            <img src="/images/Instagram-contact.png" alt="instagram" />
+            <img src="/images/tripadvisor-contact.png" alt="tripadvisor" />
+          </div>
+        </div>
+        <div class="contact-image__left">
+          <img src="/images/sea-concept-isolated.png" alt="ropes image" />
+        </div>
+        <div class="contact-image__right">
+          <img src="/images/beautiful-landscape-.png" alt="landscape" />
+        </div>
+      </div>
+    </div>
+    <div class="contact-form-section">
+      <div class="contact-form__wrap">
+        <div class="contact-form">
+          <h3>You need our support?</h3>
+          <p>Send enquire today!</p>
+          <form action="#" method="post" class="form-inline">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Full Name"
+                  name="full-name"
+                  required
+                />
+              </div>
+              <div class="form-group col-md-6">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email"
+                  name="email"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Phone"
+                  name="phone"
+                />
+              </div>
+              <div class="form-group col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Subject"
+                  name="subject"
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <textarea
+                  class="form-control"
+                  placeholder="Message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Enquiry</button>
+          </form>
+        </div>
+        <div class="contact-form__image"></div>
+      </div>
+    </div>
+    <div class="google-map" >
+
+    </div>
+    <footer>
+      <div class="footer-contact">
+        <div>
+          <p>Copyright © 2024 Web Center. All Rights Reserved.</p>
+        </div>
+        <div class="footer-contact__privacy">
+          <a href="/privacy-policy">PRIVACY POLICY</a>
+          <a href="#">COOKIES</a>
+        </div>
+      </div>
+    </footer>
+    <script src="/script.js"></script>
+    <script src="/contact/script.js"></script>
+  </body>
+</html>

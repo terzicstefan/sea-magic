@@ -1,0 +1,221 @@
+[
+  {
+    "name": "Blue Cave Group Adventure",
+    "excerpt": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration words.",
+    "category": "private",
+    "price": "$100",
+    "duration": "3h",
+    "people": "10",
+    "image": "/images/most-popular-tour.png",
+    "description": "Blue Cave Adventure is one of our favorite Kotor boat tours. That’s because it showcases the best of what the Bay of Kotor has to offer. After swimming in a magnificent sea cave, you’ll get to see two islands with unique stories, a secret submarine tunnel, and a panoramic view of Perast.",
+    "itinerary": "- Port of Kotor, starting point. - Blue Grotto, Lustica, Kotor Municipality Montenegro, 30 minutes. - Mamula Fortress, Island Lastavica, Herceg-Novi, Herceg-Novi Municipality Montenegro- Submarine Tunnels, 10 minutes. - Our Lady of the Rocks, Island in Boka Bay, Perast, Kotor Municipality 85336 Montenegro, 20 minutes. - Perast – panoramic sightseeing <br> We start from Kotor and head straight to the Blue Cave. This is our first stop where you can enjoy half an hour of swimming in stunning surroundings. <br>The Blue Cave, situated at Lustica Peninsula, is faithful to its name. The shades of blue you can see inside this cavern are really out of this world. <br>After the refreshing break in the crystal clear waters of the Blue Cave, we continue our tour with a panoramic view of Mamula Island. <br>Proceeding ahead we will stop and enter one of the three submarine tunnels located nearby. Now out of use, these tunnels were built by the Yugoslav Navy to keep submarines and smaller ships out of sight. <br>The last stop of the tour is Lady of the Rocks. The iconic little island is located opposite Perast with a church built in 1630. is a sight to behold. The history of the island is no less intriguing than its beauty.<br> On the way back to Kotor you’ll be treated to a panoramic view of Perast, a UNESCO heritage site.",
+    "slider": [
+      {
+          "image": "/images/main-background.png"
+      },
+      {
+          "image": "/images/most-popular-tour.png"
+      }
+  ]
+  },
+  {
+    "name": "Lady of the Rock & Perast Old",
+    "excerpt": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration words.",
+    "category": "group",
+    "price": "$80",
+    "duration": "3h",
+    "people": "5",
+    "image": "/images/main-background.png",
+    "slug": "lady-of-the-rock-and-perast-old-town",
+    "description": "Blue Cave Adventure is one of our favorite Kotor boat tours. That’s because it showcases the best of what the Bay of Kotor has to offer.</br> </br> After swimming in a magnificent sea cave, you’ll get to see two islands with unique stories, a secret submarine tunnel, and a panoramic view of Perast.",
+    "itinerary": "- Port of Kotor, starting point. </br>- Blue Grotto, Lustica, Kotor Municipality Montenegro, 30 minutes. </br> - Mamula Fortress, Island Lastavica, Herceg-Novi, Herceg-Novi Municipality Montenegro <br>- Submarine Tunnels, 10 minutes.</br> - Our Lady of the Rocks, Island in Boka Bay, Perast, Kotor Municipality 85336 Montenegro, 20 minutes.</br>- Perast – panoramic sightseeing </br></br> We start from Kotor and head straight to the Blue Cave. This is our first stop where you can enjoy half an hour of swimming in stunning surroundings.</br></br> The Blue Cave, situated at Lustica Peninsula, is faithful to its name. The shades of blue you can see inside this cavern are really out of this world.</br> After the refreshing break in the crystal clear waters of the Blue Cave, we continue our tour with a panoramic view of Mamula Island.</br></br> Proceeding ahead we will stop and enter one of the three submarine tunnels located nearby. Now out of use, these tunnels were built by the Yugoslav Navy to keep submarines and smaller ships out of sight.</br></br> The last stop of the tour is Lady of the Rocks. The iconic little island is located opposite Perast with a church built in 1630. is a sight to behold. The history of the island is no less intriguing than its beauty.</br></br> On the way back to Kotor you’ll be treated to a panoramic view of Perast, a UNESCO heritage site.",
+    "included": [
+      {
+        "Bottle water": true,
+        "Wi-Fi on-board": true,
+        "Snorkelling equipment": true,
+        "Shower on-board": true,
+        "Multi-language Captain": true,
+        "Fuel surcharge": true
+      }
+    ],
+    "slider": [
+      {
+          "image": "/images/main-background.png"
+      },
+      {
+          "image": "/images/most-popular-tour.png"
+      }
+  ]
+  },
+  {
+    "name": "Tour 3",
+    "excerpt": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration words.",
+    "category": "private",
+    "price": "$120",
+    "duration": "2h",
+    "people": "8",
+    "image": "https://via.placeholder.com/150",
+    "slider": [
+      {
+          "image": "/images/main-background.png"
+      },
+      {
+          "image": "/images/most-popular-tour.png"
+      }
+  ]
+  },
+  {
+    "name": "Tour 1",
+    "excerpt": "This is the excerpt for tour 1.",
+    "category": "private",
+    "price": "$100",
+    "duration": "3h",
+    "people": "10",
+    "image": "https://via.placeholder.com/150",
+    "slider": [
+      {
+          "image": "/images/main-background.png"
+      },
+      {
+          "image": "/images/most-popular-tour.png"
+      }
+  ]
+  },
+  {
+    "name": "Tour 2",
+    "excerpt": "This is the excerpt for tour 2.",
+    "category": "group",
+    "price": "$80",
+    "duration": "3h",
+    "people": "5",
+    "image": "https://via.placeholder.com/150",
+    "slider": [
+      {
+          "image": "/images/main-background.png"
+      },
+      {
+          "image": "/images/most-popular-tour.png"
+      }
+  ]
+  },
+  {
+    "name": "Tour 3",
+    "excerpt": "This is the excerpt for tour 3.",
+    "category": "private",
+    "price": "$120",
+    "duration": "2h",
+    "people": "8",
+    "image": "https://via.placeholder.com/150"
+    , "slider": [
+      {
+          "image": "/images/main-background.png"
+      },
+      {
+          "image": "/images/most-popular-tour.png"
+      }
+  ]
+  },
+  {
+    "name": "Tour 1",
+    "excerpt": "This is the excerpt for tour 1.",
+    "category": "private",
+    "price": "$100",
+    "duration": "3h",
+    "people": "10",
+    "image": "https://via.placeholder.com/150",
+    "slider": [
+      {
+          "image": "/images/main-background.png"
+      },
+      {
+          "image": "/images/most-popular-tour.png"
+      }
+  ]
+  },
+  {
+    "name": "Tour 2",
+    "excerpt": "This is the excerpt for tour 2.",
+    "category": "group",
+    "price": "$80",
+    "duration": "3h",
+    "people": "5",
+    "image": "https://via.placeholder.com/150",
+    "slider": [
+      {
+          "image": "/images/main-background.png"
+      },
+      {
+          "image": "/images/most-popular-tour.png"
+      }
+  ]
+  },
+  {
+    "name": "Tour 3",
+    "excerpt": "This is the excerpt for tour 3.",
+    "category": "private",
+    "price": "$120",
+    "duration": "2h",
+    "people": "8",
+    "image": "https://via.placeholder.com/150",
+    "slider": [
+      {
+          "image": "/images/main-background.png"
+      },
+      {
+          "image": "/images/most-popular-tour.png"
+      }
+  ]
+  },
+  {
+    "name": "Tour 1",
+    "excerpt": "This is the excerpt for tour 1.",
+    "category": "private",
+    "price": "$100",
+    "duration": "3h",
+    "people": "10",
+    "image": "https://via.placeholder.com/150",
+    "slider": [
+      {
+          "image": "/images/main-background.png"
+      },
+      {
+          "image": "/images/most-popular-tour.png"
+      }
+  ]
+  },
+  {
+    "name": "Tour 2",
+    "excerpt": "This is the excerpt for tour 2.",
+    "category": "group",
+    "price": "$80",
+    "duration": "3h",
+    "people": "5",
+    "image": "https://via.placeholder.com/150",
+    "slider": [
+      {
+          "image": "/images/main-background.png"
+      },
+      {
+          "image": "/images/most-popular-tour.png"
+      }
+  ]
+  },
+  {
+    "name": "Tour 3",
+    "excerpt": "This is the excerpt for tour 3.",
+    "category": "private",
+    "price": "$120",
+    "duration": "2h",
+    "people": "8",
+    "image": "https://via.placeholder.com/150",
+    "slider": [
+      {
+          "image": "/images/main-background.png"
+      },
+      {
+          "image": "/images/most-popular-tour.png"
+      }
+  ]
+  }
+]
