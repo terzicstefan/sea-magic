@@ -75,7 +75,10 @@
         grid-row: auto; 
     }
 
-	
+	.gallery-section {
+        padding: 2.5% 5%;
+    }
+    
 
 	
 }

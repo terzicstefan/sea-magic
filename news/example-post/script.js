@@ -1,4 +1,4 @@
-fetch('../blogData.json')
+fetch('/data/blogData.json')
   .then(response => response.json())
   .then(blogData => {
     displayBlogPosts(blogData);
