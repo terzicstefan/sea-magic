@@ -17,48 +17,47 @@
 }
 
 .simple-page-bgimg {
-    width:32%;
-    min-height: 680px;
-    margin:60px 6px;
+  width: 32%;
+  min-height: 680px;
+  margin: 60px 6px;
 }
 
 #simple-page-bg1 {
-    background: url("/images/sunbathing-bg.png");
-    background-size: cover;
+  background: url("/images/sunbathing-bg.png");
+  background-size: cover;
 }
 
 #simple-page-bg2 {
-    background: url("/images/boat-image.png");
-    background-size: cover;
+  background: url("/images/boat-image.png");
+  background-size: cover;
 }
 
 #simple-page-bg3 {
-    background: url("/images/most-popular-tour.png");
-    background-size: cover;
-    
+  background: url("/images/most-popular-tour.png");
+  background-size: cover;
 }
 
 /*Mobile responsive*/
 
 @media only screen and (max-width: 768px) {
-    .hero-section {
-        margin: 0;
-        padding: 0;
-        height: 217px;
-    }
-    
-    .simple-page-section {
-        padding: 2.5% 5%;
-      }
+  .hero-section {
+    margin: 0;
+    padding: 0;
+    height: 217px;
+  }
 
-      .simple-page-bgimg {
-        width:100%;
+  .simple-page-section {
+    padding: 2.5% 5%;
+  }
 
-        min-height: 250px;
-        margin:20px 0;
-      }
+  .simple-page-bgimg {
+    width: 100%;
 
-      .flex-direction__row {
-        flex-direction: row;
-      }
+    min-height: 250px;
+    margin: 20px 0;
+  }
+
+  .flex-direction__row {
+    flex-direction: row;
+  }
 }
