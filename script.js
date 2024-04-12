@@ -40,17 +40,24 @@ function goToSlide(index) {
   updateDots();
 }
 
-function nextSlide() {
-  const nextIndex = (currentSlide + 1) % slides.length;
+if (window.location.pathname === '/' || 
+    window.location.pathname === '/ru/' || 
+    window.location.pathname === '/it/') {
+  // Define your nextSlide function here
+  function nextSlide() {
+    const nextIndex = (currentSlide + 1) % slides.length;
 
-  // Fade out current slide
-  slides[currentSlide].classList.remove("active");
-  // Fade in next slide
-  slides[nextIndex].classList.add("active");
+    // Fade out current slide
+    slides[currentSlide].classList.remove("active");
+    // Fade in next slide
+    slides[nextIndex].classList.add("active");
 
-  currentSlide = nextIndex;
+    currentSlide = nextIndex;
 
-  updateDots();
+    updateDots();
+  }
+
+  // Additional code specific to the specific page can go here
 }
 
 /*-------------------------------------------------------------------*/
