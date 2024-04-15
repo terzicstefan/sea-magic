@@ -205,6 +205,13 @@ nav a:active {
 	width: 24px;
 	height: 24px;
 	margin-right: 10px;
+	
+}
+
+/*Little separator icon language icon*/
+#lng-icon-separate {
+	border-left: 2px solid rgba(0, 0, 0, 0.1);
+	padding-left: 10px;
 }
 .language-dropdown ul {
 	background-color: #fff;
@@ -395,6 +402,12 @@ nav a:active {
 	margin-bottom: 4px;
 	padding: 63px;
 }
+
+.most-popular-tour hr {
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
 .most-popular-tour-section {
 	margin-top: 30px;
 }
@@ -411,7 +424,7 @@ nav a:active {
 	height: 52px;
 	position: absolute;
 	right: 13%;
-	width: 160px;
+	width: 7.5vw;
 	transition: 0.3s;
 }
 
@@ -498,6 +511,7 @@ nav a:active {
 .about-us-section {
 	background-color: #0d2d3d;
 	padding: 0 0 0 10%;
+	height: auto;
 }
 .our-story-button {
 	background-color: #83acc1;
@@ -533,6 +547,8 @@ nav a:active {
 }
 .about-us-sub-section1 {
 	padding-right: 80px;
+	height: auto;
+	padding-bottom: 20px;
 }
 .about-us-sub-section1 p {
 	color: #fff;
@@ -580,6 +596,14 @@ nav a:active {
 	text-align: center;
 	width: 1200px;
 }
+
+.montenegro-tours-sections h2 {
+	color:#0d2d3d;
+	font-size: 30px;
+	font-weight: 500;
+	margin-top: -1vh;
+	margin-bottom: -1.5vh;
+}
 .boat-flex {
 	justify-content: space-between;
 	margin-top: 40px;
@@ -604,9 +628,62 @@ nav a:active {
 }
 .reviews-section {
 	padding: 0 10%;
+	margin-bottom: 5vh;
 }
-.reviews-section img {
-	margin-top: 20px;
+
+.reviews-containers {
+	display: flex;
+}
+
+.reviews-spacing {
+	margin-top:3vh;
+}
+
+.single-review {
+	background-color: #F5FCFF;
+	width:32%;
+	margin:5px;
+	padding: 20px;
+}
+
+.single-review__imageName {
+	display: flex;
+	align-items: center;
+}
+
+.single-review__imageName img {
+	width: 56px;
+	height:56px;
+}
+
+.review-name {
+	font-size: 23px;
+	color:#0D2D3D;
+	margin-top: 1vh;
+	margin-bottom: -1.5vh;
+	margin-left: 1vw;
+}
+
+.review-date  {
+	font-size: 14px;
+	color: #A7CADA;
+	margin-left: 1vw;
+}
+
+.review-stars {
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.review-stars img {
+	width: 19px;
+	height:19px;
+	margin-top: 5px;
+}
+
+.review-desc {
+	font-size: 18px;
+	color: #979797;
 }
 
 /*Footer section*/
@@ -754,6 +831,7 @@ footer {
 }
 .footer-copyright-container p {
 	opacity: 0.46;
+	font-size: 14px;
 }
 .footer-copyright-container__privacy {
 	display: flex;
@@ -763,7 +841,7 @@ footer {
 	margin-left: 15px;
 	font-family: "Rubik" !important;
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: 300;
 	font-style: normal;
 	color: #ffffff;
@@ -1200,10 +1278,52 @@ footer {
 		padding: 20px;
 		margin-bottom: 40px;
 	}
-	.reviews-section img {
-		width: 100%;
-		height: auto;
+
+	.reviews-containers {
+	 flex-direction: column;
 	}
+	
+	
+	
+	.single-review {
+		background-color: #F5FCFF;
+		width:90%;
+		margin:12px 0 0 0;
+		padding: 20px;
+	}
+	
+	.single-review__imageName {
+		display: flex;
+		align-items: center;
+	}
+	
+
+	.review-name {
+		font-size: 21px;
+		color:#0D2D3D;
+		margin-top: 1vh;
+		margin-bottom: -1.5vh;
+		margin-left: 2vw;
+	}
+	
+	.review-date  {
+		font-size: 14px;
+		color: #A7CADA;
+		margin-left: 2vw;
+	}
+	
+	.review-stars {
+		display: flex;
+		margin-bottom: 15px;
+	}
+	
+
+	.review-desc {
+		font-size: 16px;
+		color: #979797;
+	}
+	
+	
 	/* Footer */
 	footer {
 		padding: 20px;
