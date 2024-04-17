@@ -1,5 +1,5 @@
 // Example data for tours
-const toursPerPage = 2;
+const toursPerPage = 6;
 let currentPage = 1;
 let currentFilter = "all";
 let toursData = []; // Initialize tours data as an empty array
@@ -55,17 +55,18 @@ function displayTours() {
     const tourElement = document.createElement("div");
     tourElement.classList.add("tour");
     tourElement.innerHTML = `
+    <a href="/tours/${tour.slug}"> 
     <div class="price"><h3><span>from</span> ${tour.price}</h3></div> 
     <div class="tour-bg"> 
     <img src="${tour.image}" alt="${tour.name}">
       <h4>${tour.category}</h4>
-      <a href="/tours/${tour.slug}"> <h2>${tour.name}</h2></a>
+      <h2>${tour.name}</h2>
         <p>${tour.excerpt}</p>
         <div class="tour-duration">
         <h5>Duration:<span> ${tour.duration}</span> </h5>
         <h5>People:<span> ${tour.people}</span> </h5>
         </div>
-      </div>`;
+      </div> </a>`;
 
     container.appendChild(tourElement);
   });

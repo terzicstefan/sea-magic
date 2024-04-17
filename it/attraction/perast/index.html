@@ -185,16 +185,42 @@
         The city's structure is simple but charming. The main street runs along the coast, while stairs lead to different parts of the city. The central square, surrounded by the impressive church of St. Nicholas with a 55-meter high bell tower, dominates the cityscape. Although the triple-nave church was never completed due to lack of funds, today its unfinished part houses precious artifacts and a museum, adding another layer of Perast's rich history!
       </p>
       <div class="image-grid">
-        <img
-          class="image-grid-col-2 image-grid-row-2"
-          src="/images/perast/perast1.png"
-          alt="image"
-        />
-        <img src="/images/perast/perast2.png" alt="image" />
-        <img src="/images/perast/perast3.png" alt="image" />
-        <img src="/images/perast/perast4.png"alt="image" />
-        <img src="/images/perast/perast5.png" alt="image" />
-      </div>
+        <img class="image-grid-col-2 image-grid-row-2 hover-shadow cursor" src="/images/perast/perast1.png" alt="image" onclick="openModal();currentSlideG(1)" />
+        <img src="/images/perast/perast2.png" alt="image" onclick="openModal();currentSlideG(2)" class="hover-shadow cursor" />
+        <img src="/images/perast/perast3.png" alt="image" onclick="openModal();currentSlideG(3)" class="hover-shadow cursor" />
+        <img src="/images/perast/perast4.png" alt="image" onclick="openModal();currentSlideG(4)" class="hover-shadow cursor" />
+        <img src="/images/perast/perast5.png" alt="image" onclick="openModal();currentSlideG(5)" class="hover-shadow cursor" />
+    </div>
+    
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <div class="mySlides">
+                <div class="numbertext">1 / 5</div>
+                <img src="/images/perast/perast1.png" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">2 / 5</div>
+                <img src="/images/perast/perast2.png" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">3 / 5</div>
+                <img src="/images/perast/perast3.png" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">4 / 5</div>
+                <img src="/images/perast/perast4.png" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">5 / 5</div>
+                <img src="/images/perast/perast5.png" style="width:100%">
+            </div>
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
     </div>
     <!--Footer section-->
     <footer>
@@ -269,6 +295,8 @@
           </div>
         </div>
       </footer>
+      <script src="/attraction/script.js"></script>
       <script src="/script.js"></script>
+      
   </body>
 </html>
