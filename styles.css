@@ -212,7 +212,7 @@ nav a:active {
 }
 
 /*Little separator icon language icon*/
-#lng-icon-separate {
+.lng-icon-separate {
 	border-left: 2px solid rgba(0, 0, 0, 0.1);
 	padding-left: 10px;
 }
