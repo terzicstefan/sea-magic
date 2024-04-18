@@ -1296,6 +1296,7 @@ footer {
 	}
 	/* Third Section */
 	.third-section h2 {
+		font-family: Playfair Display !important;
 		font-size: 24px;
 		max-width: 90vw;
 		line-height: 28px;
