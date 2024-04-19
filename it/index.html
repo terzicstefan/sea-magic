@@ -30,7 +30,7 @@
   <body>
     <!--Header section-->
     <header class="header slide-in-blurred-top">
-      <div class="header-container ">
+      <div class="header-container">
         <div class="logo-container slide-in-blurred-top">
           <img src="/images/sea-magic-logo.png" alt="sea-magic-logo" />
         </div>
@@ -38,7 +38,8 @@
         <nav class="desktop-menu">
           <ul>
             <li><a href="/">Home</a></li>
-<li><a href="/tours/">Tours</a></li>            <li class="dropdown">
+            <li><a href="/tours/">Tours</a></li>
+            <li class="dropdown">
               <a href="#">Attractions</a>
               <ul class="sub-menu">
                 <li><a href="#">Gospa od Škrpjela</a></li>
@@ -48,8 +49,9 @@
                 <li><a href="#">Plava špilja</a></li>
               </ul>
             </li>
-            <li class="dropdown"><a href="#">Reviews</a>
-            <ul class="sub-menu">
+            <li class="dropdown">
+              <a href="#">Reviews</a>
+              <ul class="sub-menu">
                 <li><a href="#">Gospa od Škrpjela</a></li>
                 <li><a href="/attraction/perast/">Perast</a></li>
                 <li><a href="#">Panorama Kotora</a></li>
@@ -59,60 +61,87 @@
             </li>
             <li><a href="/contact/">Contact</a></li>
           </ul>
-          
         </nav>
         <!--Mobile menu toggle-->
         <div class="close-icon__z-show">
-          <div class="hamburger-menu" >
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </div>
+          <div class="hamburger-menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
           <div class="close-icon hidden">X</div>
-      </div>
-      
-      
-      <!--Mobile menu-->
-      <nav class="mobile-menu" id="mobile-menu">
-        <div class="mobile-menu-logo">
-        <img src="/images/sea-magic-logo.png" alt="sea-magic-logo" />
-      </div>
-      <ul class="language-menu">
-        
-<a href="#" onclick="switchLanguage('en')"><li data-lang="en"><img src="/images/eng-icon.png" alt="eng-icon" /></li></a>
-        <a href="#"onclick="switchLanguage('it')"><li data-lang="it"><img src="/images/ita-icon.png" alt="ita-icon" /></li></a>
-        <a href="#" onclick="switchLanguage('ru')"><li data-lang="ru"><img src="/images/rus-icon.png" alt="rus-icon" /></li></a>
-      </ul>
+        </div>
+
+        <!--Mobile menu-->
+        <nav class="mobile-menu" id="mobile-menu">
+          <div class="mobile-menu-logo">
+            <img src="/images/sea-magic-logo.png" alt="sea-magic-logo" />
+          </div>
+          <ul class="language-menu">
+            <a href="#" onclick="switchLanguage('en')"
+              ><li data-lang="en">
+                <img src="/images/eng-icon.png" alt="eng-icon" /></li
+            ></a>
+            <a href="#" onclick="switchLanguage('it')"
+              ><li data-lang="it">
+                <img src="/images/ita-icon.png" alt="ita-icon" /></li
+            ></a>
+            <a href="#" onclick="switchLanguage('ru')"
+              ><li data-lang="ru">
+                <img src="/images/rus-icon.png" alt="rus-icon" /></li
+            ></a>
+          </ul>
           <ul>
-              <li><a href="/">Home</a></li>
-  <li><a href="/tours/">Tours</a></li>              <li class="dropdown">
-                  <a href="#">Attractions</a>
-                  <ul class="sub-menu">
-                      <li><a href="#">Gospa od Škrpjela</a></li>
-                      <li><a href="/attraction/perast/">Perast</a></li>
-                      <li><a href="#">Panorama Kotora</a></li>
-                      <li><a href="#">Mamula</a></li>
-                      <li><a href="#">Plava špilja</a></li>
-                  </ul>
-              </li>
-              <li class="dropdown">
-                  <a href="#">Reviews</a>
-                  <ul class="sub-menu">
-                      <li><a href="#">Gospa od Škrpjela</a></li>
-                      <li><a href="/attraction/perast/">Perast</a></li>
-                      <li><a href="#">Panorama Kotora</a></li>
-                      <li><a href="#">Mamula</a></li>
-                      <li><a href="#">Plava špilja</a></li>
-                  </ul>
-              </li>
-              <li><a href="/contact/">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/tours/">Tours</a></li>
+            <li class="dropdown">
+              <a href="#">Attractions</a>
+              <ul class="sub-menu">
+                <li><a href="#">Gospa od Škrpjela</a></li>
+                <li><a href="/attraction/perast/">Perast</a></li>
+                <li><a href="#">Panorama Kotora</a></li>
+                <li><a href="#">Mamula</a></li>
+                <li><a href="#">Plava špilja</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#">Reviews</a>
+              <ul class="sub-menu">
+                <li><a href="#">Gospa od Škrpjela</a></li>
+                <li><a href="/attraction/perast/">Perast</a></li>
+                <li><a href="#">Panorama Kotora</a></li>
+                <li><a href="#">Mamula</a></li>
+                <li><a href="#">Plava špilja</a></li>
+              </ul>
+            </li>
+            <li><a href="/contact/">Contact</a></li>
           </ul>
           <div class="social-icons__mobile-menu">
-            <a href="facebook.com"><img id="facebook-mobile" src="/images/facebook-icon.png" alt="facebook-icon" width="14" height="26"></a>
-            <a href="instagram.com"> <img id="instagram-mobile" src="/images/instagram-icon.png" alt="instagram-icon" width="26" height="26"></a>
-            <a href="tripadvisor.com"><img id="tripadvisor-mobile" src="/images/tripadvisor-icon.png" alt="trip-advisor-icon" width="31" height="20"></a>
+            <a href="facebook.com"
+              ><img
+                id="facebook-mobile"
+                src="/images/facebook-icon.png"
+                alt="facebook-icon"
+                width="14"
+                height="26"
+            /></a>
+            <a href="instagram.com">
+              <img
+                id="instagram-mobile"
+                src="/images/instagram-icon.png"
+                alt="instagram-icon"
+                width="26"
+                height="26"
+            /></a>
+            <a href="tripadvisor.com"
+              ><img
+                id="tripadvisor-mobile"
+                src="/images/tripadvisor-icon.png"
+                alt="trip-advisor-icon"
+                width="31"
+                height="20"
+            /></a>
           </div>
-          
         </nav>
 
         <div class="overlay"></div>
@@ -124,29 +153,39 @@
         </div>
         <!--Language dropdown-->
         <div class="language-dropdown">
-          <img class="lng-icon-separate"  id="language-icon" src="/images/eng-icon.png" alt="Language Icon" />
+          <img
+            class="lng-icon-separate"
+            id="language-icon"
+            src="/images/eng-icon.png"
+            alt="Language Icon"
+          />
           <ul class="language-menu">
-              <li class="en-li" data-lang="en">
-                  <a class=" en-a" href="#" onclick="switchLanguage('en')">
-                      <img src="/images/eng-icon.png" alt="eng-icon" /><span>English</span>
-                      <span class="check-mark"></span>
-                  </a>
-              </li>
-              <li class="it-li" data-lang="ita">
-                  <a class="it-a" href="#" onclick="switchLanguage('it')">
-                      <img src="/images/ita-icon.png" alt="ita-icon" /><span>Italian</span>
-                      <span class="check-mark"></span>
-                  </a>
-              </li>
-              <li class="ru-li" data-lang="ru">
-                  <a class="ru-a" href="#" onclick="switchLanguage('ru')">
-                      <img src="/images/rus-icon.png" alt="rus-icon" /><span>Russian</span>
-                      <span class="check-mark"></span>
-                  </a>
-              </li>
+            <li class="en-li" data-lang="en">
+              <a class="en-a" href="#" onclick="switchLanguage('en')">
+                <img src="/images/eng-icon.png" alt="eng-icon" /><span
+                  >English</span
+                >
+                <span class="check-mark"></span>
+              </a>
+            </li>
+            <li class="it-li" data-lang="ita">
+              <a class="it-a" href="#" onclick="switchLanguage('it')">
+                <img src="/images/ita-icon.png" alt="ita-icon" /><span
+                  >Italian</span
+                >
+                <span class="check-mark"></span>
+              </a>
+            </li>
+            <li class="ru-li" data-lang="ru">
+              <a class="ru-a" href="#" onclick="switchLanguage('ru')">
+                <img src="/images/rus-icon.png" alt="rus-icon" /><span
+                  >Russian</span
+                >
+                <span class="check-mark"></span>
+              </a>
+            </li>
           </ul>
-      </div>
-        
+        </div>
       </div>
     </header>
     <!--Slider section-->
@@ -224,8 +263,12 @@
         <h5 class="small-mediumblue-subtitle">ABOUT US</h5>
         <h5 class="wlarge-title-heading">Agency background</h5>
         <div class="flex-align our-story-our-mission__button">
-          <a href="/about-us/"><button class="our-story-button">Our story</button></a>
-          <a href="/about-us/#our-mission"><button class="our-mission-button">Our mission</button></a>
+          <a href="/about-us/"
+            ><button class="our-story-button">Our story</button></a
+          >
+          <a href="/about-us/#our-mission"
+            ><button class="our-mission-button">Our mission</button></a
+          >
         </div>
         <p>
           "Sea Magic" is a company for transporting passengers at sea, founded
@@ -298,15 +341,15 @@
         </div>
       </div>
     </div>
-     <!--Reviews section-->
-     <div class="reviews-section">
+    <!--Reviews section-->
+    <div class="reviews-section">
       <h5 class="small-lightblue-subtitle">REVIEWS</h5>
       <h2 class="large-title-heading">What our clients say?</h2>
       <div class="reviews-containers reviews-spacing">
         <div class="single-review">
           <div class="single-review__imageName">
             <div>
-              <img src="/images/reviews/avatar1.png">
+              <img src="/images/reviews/avatar1.png" />
             </div>
             <div>
               <h4 class="review-name">Alex M</h4>
@@ -314,20 +357,21 @@
             </div>
           </div>
           <div class="review-stars">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
           </div>
           <div class="review-desc">
-            There are many variations of passages of Lorem Ipsum available, but the majority in have suffered alteration words.
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority in have suffered alteration words.
           </div>
         </div>
         <div class="single-review">
           <div class="single-review__imageName">
             <div>
-              <img src="/images/reviews/avatar2.png">
+              <img src="/images/reviews/avatar2.png" />
             </div>
             <div>
               <h4 class="review-name">Alex M</h4>
@@ -335,20 +379,21 @@
             </div>
           </div>
           <div class="review-stars">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
           </div>
           <div class="review-desc">
-            There are many variations of passages of Lorem Ipsum available, but the majority in have suffered alteration words.
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority in have suffered alteration words.
           </div>
         </div>
         <div class="single-review">
           <div class="single-review__imageName">
             <div>
-              <img src="/images/reviews/avatar3.png">
+              <img src="/images/reviews/avatar3.png" />
             </div>
             <div>
               <h4 class="review-name">Alex M</h4>
@@ -356,14 +401,15 @@
             </div>
           </div>
           <div class="review-stars">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
           </div>
           <div class="review-desc">
-            There are many variations of passages of Lorem Ipsum available, but the majority in have suffered alteration words.
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority in have suffered alteration words.
           </div>
         </div>
       </div>
@@ -371,7 +417,7 @@
         <div class="single-review">
           <div class="single-review__imageName">
             <div>
-              <img src="/images/reviews/avatar1.png">
+              <img src="/images/reviews/avatar1.png" />
             </div>
             <div>
               <h4 class="review-name">Alex M</h4>
@@ -379,20 +425,21 @@
             </div>
           </div>
           <div class="review-stars">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
           </div>
           <div class="review-desc">
-            There are many variations of passages of Lorem Ipsum available, but the majority in have suffered alteration words.
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority in have suffered alteration words.
           </div>
         </div>
         <div class="single-review">
           <div class="single-review__imageName">
             <div>
-              <img src="/images/reviews/avatar2.png">
+              <img src="/images/reviews/avatar2.png" />
             </div>
             <div>
               <h4 class="review-name">Alex M</h4>
@@ -400,20 +447,21 @@
             </div>
           </div>
           <div class="review-stars">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
           </div>
           <div class="review-desc">
-            There are many variations of passages of Lorem Ipsum available, but the majority in have suffered alteration words.
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority in have suffered alteration words.
           </div>
         </div>
         <div class="single-review">
           <div class="single-review__imageName">
             <div>
-              <img src="/images/reviews/avatar3.png">
+              <img src="/images/reviews/avatar3.png" />
             </div>
             <div>
               <h4 class="review-name">Alex M</h4>
@@ -421,18 +469,18 @@
             </div>
           </div>
           <div class="review-stars">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
-            <img src="/images/reviews/star.png">
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
+            <img src="/images/reviews/star.png" />
           </div>
           <div class="review-desc">
-            There are many variations of passages of Lorem Ipsum available, but the majority in have suffered alteration words.
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority in have suffered alteration words.
           </div>
         </div>
       </div>
-      
     </div>
     <!--Footer section-->
     <footer>

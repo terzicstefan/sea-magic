@@ -1,52 +1,49 @@
 .hero-section {
-    background-image: url(/images/hero-bg.png);
-    background-size: cover;
-    height: 317px;
-    margin-top: -120px;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
+  background-image: url(/images/hero-bg.png);
+  background-size: cover;
+  height: 317px;
+  margin-top: -120px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.privacy-policy-section {
+  padding: 2.5% 10%;
+  margin-bottom: 50px;
+}
+
+.privacy-policy-content h3 {
+  font-size: 35px;
+  color: #4b82ac;
+  font-weight: 500;
+  margin-bottom: -10px;
+}
+
+#light-link-pp {
+  color: #bcbcbc;
+  text-decoration: none;
+}
+#light-link-pp:hover {
+  color: #4b82ac;
+  text-decoration: underline;
+}
+
+#dark-link-pp {
+  color: #4b82ac;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-section {
+    margin: 0;
+    padding: 0;
+    height: 217px;
   }
+
   .privacy-policy-section {
-    padding: 2.5% 10%;
-    margin-bottom: 50px;
+    padding: 2.5% 5%;
   }
 
-  .privacy-policy-content h3{
-    font-size: 35px;
-    color:#4B82AC;
-    font-weight: 500;
-    margin-bottom: -10px;
-  }
-
-  #light-link-pp {
-    color: #BCBCBC;
-    text-decoration: none;
-  }
-  #light-link-pp:hover {
-    color:#4B82AC;
-    text-decoration: underline;
-  }
-
-  #dark-link-pp {
-    color:#4B82AC;
-    text-decoration: none;
-  }
-
-  @media only screen and (max-width: 768px) {
-    .hero-section {
-        margin: 0;
-        padding: 0;
-        height: 217px;
-    }
-    
-    .privacy-policy-section {
-        padding: 2.5% 5%;
-      }
-
-      
-  .privacy-policy-content h3{
+  .privacy-policy-content h3 {
     font-size: 26px;
-    
   }
-
-    }
+}
